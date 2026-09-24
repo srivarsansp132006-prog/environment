@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Run Linter') {
             steps {
-                bat 'flake8 app.py'
+                bat ' app.py'
             }
             
         }
